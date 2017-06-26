@@ -1,0 +1,8 @@
+/home/thoinaru/Documents/Dev/TokenAuth/bin/Debug/netcoreapp1.1/TokenAuth.deps.json
+/home/thoinaru/Documents/Dev/TokenAuth/bin/Debug/netcoreapp1.1/TokenAuth.runtimeconfig.json
+/home/thoinaru/Documents/Dev/TokenAuth/bin/Debug/netcoreapp1.1/TokenAuth.runtimeconfig.dev.json
+/home/thoinaru/Documents/Dev/TokenAuth/bin/Debug/netcoreapp1.1/TokenAuth.dll
+/home/thoinaru/Documents/Dev/TokenAuth/bin/Debug/netcoreapp1.1/TokenAuth.pdb
+/home/thoinaru/Documents/Dev/TokenAuth/obj/Debug/netcoreapp1.1/TokenAuth.AssemblyInfo.cs
+/home/thoinaru/Documents/Dev/TokenAuth/obj/Debug/netcoreapp1.1/TokenAuth.dll
+/home/thoinaru/Documents/Dev/TokenAuth/obj/Debug/netcoreapp1.1/TokenAuth.pdb
