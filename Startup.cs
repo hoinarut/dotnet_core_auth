@@ -52,7 +52,14 @@ namespace TokenAuth
                 .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
                 .RequireAuthenticatedUser().Build());
             });
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             // Add framework services.
             services.AddMvc();
         }
@@ -79,7 +86,7 @@ namespace TokenAuth
             });
 
             app.UseStaticFiles();
-
+            app.UseCors("CorsPolicy");
             // Add JWT generation endpoint:
             app.UseMiddleware<TokenProviderMiddleware>(Options.Create(tokenOptions));
 
